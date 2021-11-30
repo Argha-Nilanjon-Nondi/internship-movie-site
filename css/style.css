@@ -64,7 +64,7 @@ body {
 
 .movie-info {
     width: 100%;
-    background-color: hsl(89deg 11% 4% / 30%);
+    background-color: hsl(90deg 35% 2% / 60%);
 }
 
 .movie-info h4 {
@@ -89,6 +89,9 @@ footer p {
 }
 
 @media only screen and (max-width:736px) {
+    html{
+        font-size: 8px;
+    }
     footer p {
         display: block;
     }
