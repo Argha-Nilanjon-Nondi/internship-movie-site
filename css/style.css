@@ -95,6 +95,6 @@ footer p {
     border-color: white;
     display: grid !important;
     grid-template-columns: 94%;
-    grid-template-rows: 10rem;
+    grid-template-rows: 25rem;
   }
 }
