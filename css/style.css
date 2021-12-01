@@ -1,98 +1,100 @@
 body {
-    background-color: black !important;
+  background-color: black !important;
 }
 
 .nav-logo {
-    width: 10rem;
-    height: 5rem;
+  width: 10rem;
+  height: 5rem;
 }
 
 .bg-dark {
-    background-image: linear-gradient(40deg, #6509f8, #eb0ce7);
+  background-image: linear-gradient(40deg, #6509f8, #eb0ce7);
 }
 
 .nav-link {
-    font-size: 1.3rem !important;
-    color: white !important;
+  font-size: 1.3rem !important;
+  color: white !important;
 }
 
 .nav-link:hover {
-    color: rgb(230, 218, 218) !important;
+  color: rgb(230, 218, 218) !important;
 }
 
 .active {
-    color: rgb(230, 218, 218) !important;
+  color: rgb(230, 218, 218) !important;
 }
 
 .carousel-item {
-    height: 53rem !important;
+  height: 53rem !important;
 }
 
 .carousel-item img {
-    height: 100% !important;
+  height: 100% !important;
 }
 
 .movie-container {
-    margin: 5rem auto 0 auto;
-    width: 95%;
+  margin: 5rem auto 0 auto;
+  width: 95%;
 }
 
 .movie-catagory {
-    color: white !important;
+  color: white !important;
 }
 
 .movie-poster-list {
-    border-color: white;
 }
 
 .movie-item {
-    margin: 0.5rem;
-    height: 15rem;
-    width: 15.5rem;
-    background-position: center;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    position: relative;
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
 }
 
 .movie-item img {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }
 
 .movie-info {
-    width: 100%;
-    background-color: hsl(90deg 35% 2% / 60%);
+  width: 100%;
+  background-color: hsl(90deg 35% 2% / 60%);
 }
 
 .movie-info h4 {
-    text-align: center;
-    color: white;
+  text-align: center;
+  color: white;
 }
 
 .movie-info p {
-    font-size: 1rem;
-    text-align: center;
-    color: white;
+  font-size: 1rem;
+  text-align: center;
+  color: white;
 }
 
 .footer-logo {
-    height: 5rem;
-    width: 8rem;
+  height: 5rem;
+  width: 8rem;
 }
 
 footer p {
-    display: inline;
-    color: white;
+  display: inline;
+  color: white;
 }
 
-@media only screen and (max-width:736px) {
-    html{
-        font-size: 8px;
-    }
-    footer p {
-        display: block;
-    }
+@media only screen and (max-width: 736px) {
+  html {
+    font-size: 8px;
+  }
+  footer p {
+    display: block;
+  }
+  .movie-poster-list {
+    border-color: white;
+    display: grid !important;
+    grid-template-columns: 94%;
+    grid-template-rows: 10rem;
+  }
 }
